@@ -1,0 +1,81 @@
+# -----------------------------------------------------------
+# CITATION file created with {cffr} R package, v0.2.2
+# See also: https://docs.ropensci.org/cffr/
+# -----------------------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "ussie" in publications use:'
+type: software
+license: MIT
+title: 'ussie: working with football data'
+version: 0.0.0.9000
+abstract: This is a package that sort of works behind the VPN.
+authors:
+- family-names: Amann
+  given-names: Jordan
+  email: jordan.amann@fema.dhs.gov
+preferred-citation:
+  type: manual
+  title: 'ussie: working with football data'
+  authors:
+  - family-names: Amann
+    given-names: Jordan
+    email: jordan.amann@fema.dhs.gov
+  version: 0.0.0.9000
+  abstract: This is a package that sort of works behind the VPN.
+  repository-code: https://github.com/jamann426/ussie
+  url: https://github.com/jamann426/ussie
+  contact:
+  - family-names: Amann
+    given-names: Jordan
+    email: jordan.amann@fema.dhs.gov
+  license: MIT
+  year: '2022'
+repository-code: https://github.com/jamann426/ussie
+url: https://github.com/jamann426/ussie
+contact:
+- family-names: Amann
+  given-names: Jordan
+  email: jordan.amann@fema.dhs.gov
+references:
+- type: software
+  title: dplyr
+  abstract: 'dplyr: A Grammar of Data Manipulation'
+  notes: Imports
+  authors:
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@rstudio.com
+    orcid: https://orcid.org/0000-0003-4757-117X
+  - family-names: François
+    given-names: Romain
+    orcid: https://orcid.org/0000-0002-2444-4226
+  - family-names: Henry
+    given-names: Lionel
+  - family-names: Müller
+    given-names: Kirill
+    orcid: https://orcid.org/0000-0002-1416-3412
+  year: '2022'
+  url: https://CRAN.R-project.org/package=dplyr
+- type: software
+  title: tibble
+  abstract: 'tibble: Simple Data Frames'
+  notes: Imports
+  authors:
+  - family-names: Müller
+    given-names: Kirill
+    email: krlmlr+r@mailbox.org
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@rstudio.com
+  year: '2022'
+  url: https://CRAN.R-project.org/package=tibble
+- type: software
+  title: engsoccerdata
+  abstract: 'engsoccerdata: English and European Soccer Results 1871-2016'
+  notes: Suggests
+  authors:
+  - family-names: Curley
+    given-names: James
+  year: '2022'
+  url: https://CRAN.R-project.org/package=engsoccerdata
