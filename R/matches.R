@@ -1,3 +1,12 @@
+#' Makes standard dataframe for league data
+#'
+#'@param data_engsoc dataframe from engsoccer data package
+#'@param country a country one of spain, italy, germany, england, holland
+#'
+#'@return dataframe, tibble
+#'
+#'@export
+#'
 uss_make_matches <- function(data_engsoc, country) {
   result <-
     data_engsoc %>%
