@@ -1,0 +1,23 @@
+---
+title: "ussie"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{ussie}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(ussie)
+```
+
+
+## Get country data
+the function `get_matches` 
