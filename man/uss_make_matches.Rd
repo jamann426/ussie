@@ -2,18 +2,25 @@
 % Please edit documentation in R/matches.R
 \name{uss_make_matches}
 \alias{uss_make_matches}
-\title{Makes standard dataframe for league data}
+\title{Make a standard league-play tibble}
 \usage{
 uss_make_matches(data_engsoc, country)
 }
 \arguments{
-\item{data_engsoc}{dataframe from engsoccer data package}
+\item{data_engsoc}{\code{data.frame} obtained from {engsoccerdata}.}
 
-\item{country}{a country one of spain, italy, germany, england, holland}
+\item{country}{\code{character} scalar, specifies the league.
+\code{uss_countries()} returns choices available from {engsoccerdata}}
 }
 \value{
-dataframe, tibble
+\link[tibble:tibble-package]{tibble} with columns \code{country}, \code{date},
+\code{season}, \code{tier}, \code{home}, \code{visitor}, \code{goals_home}, \code{goals_visitor}.
 }
 \description{
-Makes standard dataframe for league data
+Given a league-play data frame from {engsoccer}, returns a tibble with
+standardised colomn-names and types, e.g. \code{date} is a \code{Date}.
 }
+\examples{
+uss_make_matches(engsoccerdata::italy, "Italy")
+}
+\keyword{internal}

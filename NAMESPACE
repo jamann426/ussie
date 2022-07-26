@@ -3,6 +3,8 @@
 export(uss_countries)
 export(uss_get_matches)
 export(uss_make_matches)
+export(uss_make_teams_matches)
+importFrom(rlang,":=")
 importFrom(rlang,.data)
 importFrom(rlang,.env)
 importFrom(tibble,tibble)
