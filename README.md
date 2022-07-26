@@ -23,7 +23,7 @@ whole things a ted lasso reference?
 ## Installation
 
 You can install the development version of ussie from
-[GitHub](https://github.com/) with:
+[GitHub](https://github.com/) with this:
 
 ``` r
 # install.packages("devtools")

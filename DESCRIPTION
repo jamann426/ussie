@@ -5,9 +5,6 @@ Authors@R:
     person("Jordan", "Amann", , "jordan.amann@fema.dhs.gov", role = c("aut", "cre"))
 Description: This is a package that sort of works behind the VPN.
 License: MIT + file LICENSE
-Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.1
 URL: https://github.com/jamann426/ussie
 BugReports: https://github.com/jamann426/ussie/issues
 Imports: 
@@ -15,10 +12,17 @@ Imports:
     dplyr,
     engsoccerdata,
     rlang,
-    tibble
+    tibble,
+    withr
 Suggests: 
+    conflicted,
     knitr,
     rmarkdown,
+    roxygen2,
     testthat (>= 3.0.0)
+VignetteBuilder: 
+    knitr
 Config/testthat/edition: 3
-VignetteBuilder: knitr
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
